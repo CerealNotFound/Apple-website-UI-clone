@@ -46,7 +46,7 @@ nav a{
 
 #section-1{
     position: relative;
-    background-image: url(./apple-replica-starter-files-master/apple-replica/images/hero/iphone-11-pro/iphone_11_pro_large.jpg);
+    background-image: url(./Mega Project_4/apple-replica-starter-files-master/apple-replica/images/hero/iphone-11-pro/iphone_11_pro_large.jpg);
     width: 100%;
     height: 100vh;
     box-sizing: content-box;
@@ -142,7 +142,7 @@ nav a{
     }
 
     #section-1{
-        background-image: url(./apple-replica-starter-files-master/apple-replica/images/hero/iphone-11-pro/iphone_11_pro_small.jpg);
+        background-image: url(./Mega Project_4/apple-replica-starter-files-master/apple-replica/images/hero/iphone-11-pro/iphone_11_pro_small.jpg);
     }
 
     .main-head{
