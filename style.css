@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ####################################Navbar######################## */
+
+nav{
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0%;
+    font-size: 0.9em;
+    font-weight: 100;
+    color: rgb(210, 210, 210);
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+}
+
+#behind-black-thing{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0%;
+    background-color: #000;
+}
+
+nav a{
+    margin-inline: 2.3em;
+}
+
+.nav-text-links{
+    transform: translateY(35%);
+}
+
+@media screen and (max-width: 768px){
+    nav a{
+        margin-inline: 1em;
+    }
+}
+
+/* *************************************DONE*************************** */
+
+/* ####################################Section-1######################## */
+
+main{
+    height: 290vh;
+}
+
+#section-1{
+    position: relative;
+    background-image: url(./images/hero/iphone-11-pro/iphone_11_pro_large.jpg);
+    width: 100%;
+    height: 100vh;
+    box-sizing: content-box;
+    overflow: hidden;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section ul{
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section ul li{
+    margin-bottom: 0.2em;
+}
+
+#main-head{
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#caption{
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.pricing-thing{
+    color: #87878b;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.the-1:hover, .the-asterisk:hover{ 
+    color: rgb(1, 136, 255);
+    transition: 300ms;
+}
+
+.blue-links{
+    color: rgb(1, 136, 255);
+    text-decoration: none;
+    list-style: none;
+    position: static;
+    font-size: 1.3em;
+    margin-top: 2vh;
+}
+
+.blue-link-1 span:hover, .blue-link-2 span:hover{
+    text-decoration: underline;
+    transition: 250ms;
+}
+
+.blue-link-1, .blue-link-2{
+    margin-inline: 1.2em;
+}
+
+@media screen and (max-width: 768px){
+    #main-head{
+        font-size: 2em;
+    }
+
+    #caption{
+        font-size: 1.2em;
+    }
+
+    .pricing-thing{
+        font-size: 0.97em;
+    }
+
+    .blue-links{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .nav-text-links, #search-icon{
+        display: none;
+    }
+
+    .image-icons{
+        margin-inline: 30vw;
+    }
+
+    #section-1{
+        background-image: url(./images/hero/iphone-11-pro/iphone_11_pro_small.jpg);
+    }
+
+    .blue-links{
+        margin-top: 5vh;
+    }
+}
+/* *************************************DONE*************************** */
+
+
+/* #################################Section-2########################### */
+
+#section-2{
+    position: relative;
+    background-image: url(./images/hero/iphone-11/iphone_11_large.jpg);
+    width: 100%;
+    height: 100vh;
+    box-sizing: content-box;
+    overflow: hidden;
+    transform: translateY(-44px);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-head-2{
+    color: #151515;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.caption-2{
+    color: #151515;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px){
+    .main-head-2{
+        font-size: 2em;
+    }
+
+    .caption-2{
+        font-size: 1.2em;
+    }
+
+    .pricing-thing{
+        font-size: 0.97em;
+    }
+
+    .blue-links{
+        font-size: 1.1em;
+    }
+
+    #section-2{
+        background-image: url(./images/hero/iphone-11/iphone_11_medium.jpg);
+    }
+}
+
+@media screen and (max-width: 425px){
+    .nav-text-links, #search-icon{
+        display: none;
+    }
+
+    .image-icons{
+        margin-inline: 30vw;
+    }
+
+    #section-2{
+        background-image: url(./images/hero/iphone-11/iphone_11_small.jpg);
+    }
+
+    .blue-links{
+        margin-top: 5vh;
+    }
+}
+
+/* ****************************Done************************************ */
+
+/* ###############################Section-3############################ */
+
+#section-3{
+    position: relative;
+    background-image: url(/images/hero/watch/watch_large.jpg);
+    width: 100%;
+    height: 100vh;
+    box-sizing: content-box;
+    overflow: hidden;
+    transform: translateY(-44px);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+#section-3 ul{
+    width: 20vw;
+}
+
+@media screen and (max-width: 1440px){
+    #section-3 ul{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #section-3{
+        background-image: url(./images/hero/watch/watch_medium.jpg);
+    }
+
+    #section-3 ul{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #section-3{
+        background-image: url(./images/hero/watch/watch_small.jpg);
+    }
+
+    #section-3 ul{
+        width: 80vw;
+    }
+
+    #watch-logo{
+        margin-bottom: 2vh;
+    }
+}
